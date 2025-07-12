@@ -1,3 +1,3 @@
-import { Product } from "../model/product.model";
+// import { Product } from "../model/product.model";
 
-export const productList: Product[] = [];
+// export const productList: Product[] = [];
