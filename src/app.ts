@@ -20,6 +20,8 @@ const corsOptions = {
         }
     }
 };
+app.use(cors(corsOptions));
+
 app.use("/api/products", productRoutes); // 2.2 Register the product routes
 
 // app.use()
